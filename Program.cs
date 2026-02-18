@@ -1,3 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using RPGBattle.Core;
 
-Console.WriteLine("Hello, World!");
+namespace RPGBattle;
+
+public static class Program
+{
+    public static void Main()
+    {
+        Console.WriteLine("Hi! Welcome to RPGBattle");
+        
+        Game game = new Game();
+        game.StartGame();
+    }
+}
