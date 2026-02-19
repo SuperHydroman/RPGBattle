@@ -1,4 +1,7 @@
-﻿namespace RPGBattle.Utilities;
+﻿using RPGBattle.Characters;
+using RPGBattle.Core;
+
+namespace RPGBattle.Utilities;
 
 public class Logger
 {
@@ -9,13 +12,32 @@ public class Logger
 
     public bool AskYesNoQuestion(string prompt)
     {
-        Console.WriteLine(prompt);
-        string? isCorrectInput = Console.ReadLine()?.Trim().ToLower();
+        while (true)
+        {
+            Text(prompt);
+            string? isCorrectInput = Console.ReadLine()?.Trim().ToLower();
 
-        if (isCorrectInput is "y" or "yes")
-            return true;
-        
-        Text("Let's try this again.");
-        return false;
+            if (isCorrectInput is "y" or "yes")
+                return true;
+
+            if (isCorrectInput is "n" or "no")
+                return false;
+                
+            Text("Please answer with Y(es) or N(o).");
+        }
+    }
+
+    public void AttackResult(Character attacker, Character target, int damage)
+    {
+        string damageResult = damage > 0
+            ? $" for '{damage}' damage!"
+            : ", but missed!";
+
+        Game.GameLogger.Text($"Player \"{attacker.Name}\" attacks \"{target.Name}\"{damageResult}");
+    }
+
+    public void ClearConsole()
+    {
+        Console.Clear();
     }
 }
