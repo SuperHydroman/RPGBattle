@@ -15,5 +15,5 @@ I personally think this can become a cool thing. Think of it as Final Fantasy or
 2. Build the project via an IDE (like Rider for example). Now you should be all good to go and play the game.
 
 ### Additional information
-You can track the project’s progress and upcoming roadmap on Trello:
+You can track the project’s progress and upcoming roadmap on Trello: \
 https://trello.com/b/6qMpSA5g/rpgbattle
