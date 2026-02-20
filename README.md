@@ -13,3 +13,6 @@ I personally think this can become a cool thing. Think of it as Final Fantasy or
 ### How do I install RPGBattle?
 1. Go to the [releases](github.com/SuperHydroman/RPGBattle/releases) of this project and download the latest version.
 2. Build the project via an IDE (like Rider for example). Now you should be all good to go and play the game.
+
+### Additional information
+If you'd like to follow along the progression and keep track of the roadmap that is ahead: https://trello.com/b/6qMpSA5g/rpgbattle
