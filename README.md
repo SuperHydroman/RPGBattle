@@ -8,7 +8,7 @@ The idea is that you are the **_Chosen One_**. You get to create your own Hero b
 ### Current Status
 The project is far from finished, but I am determined to keep improving it and turn it into a polished console RPG experience without relying on game engines like Unity or Unreal Engine. Think of it as Final Fantasy or Pokémon-style combat in a console.
 
-Current features:
+#### Current features:
 * Basic character creation (name only)
 * Automated combat system (round-based)
 
