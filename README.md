@@ -22,4 +22,4 @@ Currently, RPGBattle needs to be built from source.
 You can track the project’s progress and upcoming roadmap on Trello: \
 https://trello.com/b/6qMpSA5g/rpgbattle
 
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/SuperHydroman/RPGBattle/tree/main?tab=MIT-1-ov-file#) file for details.
+This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
